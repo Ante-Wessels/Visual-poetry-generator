@@ -736,7 +736,7 @@ making the templates dynamic. Very dynamic: sometimes the whole poem...
                             in1 = "Paradise";
                             in2 = "sadness";
                             in3 = "aunt";
-                            in4 = "scedule";
+                            in4 = "schedule";
                             in5 = "soul";
                             in6 = "dig";
                             in7 = "Dean";
