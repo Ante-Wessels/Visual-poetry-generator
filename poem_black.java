@@ -1,13 +1,28 @@
-/** Creates Visual Poetry at random, from preconfigured sets or user input. Black background version.
-@version nov 1999 - may 2000 update
-@author: Ante Wessels vitanova@freemail.nl
-http://huizen.dds.nl/~vitanova   
-license: GPL. See www.gnu.org
-You can use, modify and distribute this software provided you keep this header unchanged.
-*/
+/* Creates Visual Poetry at random, from preconfigured sets or user input.
 
 
-/*
+This file is part of Visual Poetry Generator.
+
+Visual Poetry Generator is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Visual Poetry Generator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with Visual Poetry Generator. If not, see <http://www.gnu.org/licenses/>.
+
+(C) 1999- 2000 and 2026 Ante Wessels.
+
+
+    
+@version 2026
+@author: Ante Wessels
+
 
 Elements of this applet:
 
