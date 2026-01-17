@@ -16,7 +16,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with Visual Poetry Generator. If not, see <http://www.gnu.org/licenses/>.
 
-(C) 1999- 2000 and 2026 Ante Wessels.
+Copyright (C) Ante Wessels.
 
 
     
@@ -48,7 +48,7 @@ making the templates dynamic. Very dynamic: sometimes the whole poem...
         
 
 
-        public class poem_black extends Applet implements Runnable, ActionListener {
+        public class poem_black_2026 extends Applet implements Runnable, ActionListener {
         
         
                 Thread thread1;
