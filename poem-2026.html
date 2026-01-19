@@ -7,59 +7,42 @@ content="Creates Visual Poetry at random, On the Road, Hacker's Delight, Shakesc
 <meta name="generator" content="NoteTab 4.5; emacs">
 <title>Poem Generator creates Visual Poetry at random</title>
 
-
-<SCRIPT LANGUAGE="JavaScript">
-
-
-<!-- Begin
+<script>
 function openWindow() {
-if ((screen.width == 640) && (screen.height == 480)) 
-window.open('poem640-2026.html', 'new_window', 'toolbar=no,directories=no,menubar=no,status=no,resizable=no,scrollbars=yes, fullscreen=yes')
-else if ((screen.width == 800) && (screen.height == 600))
-window.open('poem800-2026.html', 'new_window', 'toolbar=no,directories=no,menubar=no,status=no,resizable=no,scrollbars=yes, fullscreen=yes')
-else if ((screen.width == 1024) && (screen.height == 768))
-window.open('poem1024-2026.html', 'new_window', 'toolbar=no,directories=no,menubar=no,status=no,resizable=no,scrollbars=yes, fullscreen=yes')
-else window.open('poem1024-2026.html', 'new_window', 'toolbar=no,directories=no,menubar=no,status=no,resizable=no,scrollbars=yes, fullscreen=yes');
+  const w = window.innerWidth || screen.width;
 
+  let page;
+
+  if (w < 800) {
+    page = 'poem640-2026.html';
+  } else if (w < 1024) {
+    page = 'poem800-2026.html';
+  } else if (w < 1366) {
+    page = 'poem1024-2026.html';
+  } else if (w < 1920) {
+    page = 'poem1366-2026.html';
+  } else {
+    page = 'poemHD-2026.html';
+  }
+
+  window.open(
+    page,
+    'poem_window',
+    'toolbar=no,menubar=no,status=no,resizable=yes,scrollbars=yes'
+  );
 }
-// End -->
 </script>
-
 
 </head>
 
 <body bgcolor="#000000" link="#FF0000" vlink="#808080"
 alink="#00FFFF" text="FFFFFF">
 
-
-<!--------
-<center>
-<script>
-openWindow()
-</script>
---------->
-
-
-
-
-
-
 <BR><CENTER>
 
 <font color="#FF0000" size="7">&gt;*&lt;</font><BR>
 <font color="#FF0000" size="7">Poem Generator</font>
 <BR><BR><BR><BR>
-
-
-<!-----
-<font color="#FF0000" size="6">Coming up...</font><BR><BR><BR>
----->
-
-
-
-
-
-
 
 Creates Visual Poetry at random, <BR>
 Preconfigured sets: On the Road, Hacker's Delight, ! Amorvita !, Shakescene, You!<BR>
@@ -88,29 +71,30 @@ For an explanation of the fields, see the <a href="intro.gif">Introduction Gif</
 <BR><BR><BR>
 
 
-<a href="javascript:openWindow();">Open Window</a><BR> and wait for the extension to start.<BR> 
-You may like to make it full screen (F11) and scroll down a bit.<BR> Make smaller with same command (F11).
-
-<BR><BR><BR>
-
-Or choose your resolution:
-<BR>
-<a href="poem640-2026.html">640 x 480</A><BR>
-<a href="poem800-2026.html">800 x 600</A><BR>
-<a href="poem1024-2026.html">1024 x 768 and higher</A>
-
+<a href="#" onclick="openWindow(); return false;">Open Window</a><BR>
+and wait for the extension to start.<BR> 
+You may like to make it full screen (F11) and scroll down a bit.<BR>
+Make smaller with same command (F11, or hold ESC).<BR>
+Scroll further down for menu with links.
 
 
 <BR><BR><BR>
 
+Or choose a layout size:<br><br>
+<a href="poem640-2026.html">Small (640)</a><br>
+<a href="poem800-2026.html">Medium (800)</a><br>
+<a href="poem1024-2026.html">Large (1024)</a><br>
+<a href="poem1366-2026.html">Laptop (1366)</a><br>
+<a href="poemHD-2026.html">HD / Large screens</a>
+
+<BR><BR>
+<a href="poemHD-2026-v2.html">HD / Large screens version 2</a>
+
+<BR><BR><BR>
 
 <A HREF="../index.html">Vitanova</A>
 <BR>
-Poetry, Stories & Visual Art<BR>
-
-
+Poetry, Stories & Visual Art<BR><BR><BR>
 
 </body>
 </html>
-
-
