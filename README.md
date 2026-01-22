@@ -5,7 +5,7 @@ Ad random visual poetry generator from 1999-2000. As Java on webpages was discon
 
 # Compile
 
-The Cheerpj Applet extention likes Java 8; in the project directory, compile with 
+The Cheerpj Applet extention likes Java 8; compile with 
 
 javac --release 8 poem_black_2026.java
 
