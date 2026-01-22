@@ -19,8 +19,6 @@ I like to keep the ad random visual poetry generator mostly as it has always bee
 On line: https://amorvita.home.xs4all.nl/poem-2026/poem-2026.html
 
 
-# 1999-2000 version on line
-
 # License
 
 GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
