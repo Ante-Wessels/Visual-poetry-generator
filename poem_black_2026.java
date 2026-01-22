@@ -18,8 +18,6 @@ along with Visual Poetry Generator. If not, see <http://www.gnu.org/licenses/>.
 
 Copyright (C) Ante Wessels.
 
-
-    
 @version 2026
 @author: Ante Wessels
 
@@ -2008,7 +2006,7 @@ class poemhelpFrame extends Frame implements WindowListener, ActionListener {
                 super(title);                                                  
                 
                 setLayout(new GridLayout(1, 1));     
-                textarea1 = new TextArea ("\nWelcome to the Poem Generator.\n\nThe Poem Generator can be run automatically - suspend, resume - \nor manually: choose one of the poems like Hacker's Delight.\nTo create your own poem fill in the empty textfields.\nUp to 10 words, up to 4 sentences.\nYou can leave fields blank - but do use the first textfield.\n\nTake the keywords of a dream, meeting or some other event.\nThen choose Own Input or resume.\nExtra option: In the special textfield ( ' Paola ' ), fill in the name of the One You Love. \nThen choose You ! or resume.\nLack of self-confidence? Fill in your own name!\n\nThe Poem Generator uses random generators:\n  - Each time you will get another poem.\n  - Sometimes the poem dissolves into the background: Nirvana...\n  - You will not get the same poem back, so, if you like one, save it!\n\nHow to save?\nUnfortunately, for security reasons you cannot save from a Java Applet.\nYou can make a screenshot however.\nWindows: push the Printscreen key on your keyboard, open a graphical program,\nlike programs - accessories - paint, choose paste and save.\n\nYou can go off line while using the poem generator.\nSource code & download: see the links at the bottom of the html page.\nYou are free to use & copy this applet.\n\nRestart Auto function: resume.\n\nThe poems Hacker's Delight & You ! were made for this Poem Generator.\nAmorvita is inspired by ! Amorvita ! by Ante Wessels.\nOn the Road is inspired by the novel by Jack Kerouac.\nShakescene is inspired by the works of William Shakespeare.\n\nPoem Generator\nby Ante Wessels\nvitanova@freemail.nl\nhttp://huizen.dds.nl/~vitanova\n\nHave fun!");
+                textarea1 = new TextArea ("\nWelcome to the Poem Generator.\n\nThe Poem Generator can be run automatically -- suspend, resume -- \nor manually: choose one of the poems like Hacker's Delight.\nTo create your own poem fill in the empty textfields.\nUp to 10 words, up to 4 sentences.\nYou can leave fields blank -- but do use the first textfield.\n\nTake the keywords of a dream, meeting or some other event.\nThen choose Own Input or resume.\nExtra option: In the special textfield ( ' Paola ' ), fill in the name of the One You Love. \nThen choose You ! or resume.\nLack of self-confidence? Fill in your own name!\n\nThe Poem Generator uses random generators:\n  - Each time you will get another poem.\n  - Sometimes the poem dissolves into the background: Nirvana...\n  - You will not get the same poem back, so, if you like one, save it!\n\nHow to save?\nUnfortunately, for security reasons you cannot save from a Java Applet.\nYou can make a screenshot however.\n\nRestart Auto function: resume.\n\nOn the Road is inspired by the novel by Jack Kerouac.\nShakescene is inspired by the works of William Shakespeare.\n\nPoem Generator\nby Ante Wessels\n\nHave fun!");
                
                 add (textarea1);   
                 textarea1.setEditable(false);                       
